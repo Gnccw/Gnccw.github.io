@@ -166,9 +166,6 @@ http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226219/index.m3u8
 #EXTINF:-1 tvg-id="71" tvg-name="西藏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xizang.png" group-title="地方卫视",西藏卫视
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226212/index.m3u8
 
-#EXTINF:-1 tvg-id="72" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/sansha.png" group-title="中国卫视", 三沙卫视
-http://[2001:da8:c000:1201:f816:3eff:fe09:940e]/hls/sstv.m3u8
-
 #EXTINF:-1 tvg-id="67" tvg-name="卡酷动画" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/kaku.png" group-title="地方卫视",卡酷少儿
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225743/index.m3u8
 
