@@ -58,6 +58,5 @@ for i in range(len(res)):
     s+=res[i][1]+'\n'
     s+='\n'
 
-fp=open('test.m3u','w')
-fp.write(s)
-fp.close()
+with codecs.open('test.m3u','w',encoding='utf-8') as f:
+    f.write(s)
