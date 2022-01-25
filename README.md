@@ -1,1 +1,1 @@
-# Gnccw.github.io/cn.m3u
+# https://gnccw.github.io/cn.m3u
