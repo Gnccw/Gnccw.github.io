@@ -131,7 +131,7 @@ http://223.110.236.9/ott.js.chinamobile.com/PLTV/3/224/3221228221/index.m3u8
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001347/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 
 #EXTINF:-1 tvg-id="50" tvg-name="江西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png" group-title="地方卫视",江西卫视 HD
-http://39.135.53.199/ott.fj.chinamobile.com/PLTV/88888888/224/3221227022/index.m3u8
+http://223.110.236.20/ott.js.chinamobile.com/PLTV/3/224/3221228109/index.m3u8
 
 #EXTINF:-1 tvg-id="51" tvg-name="吉林卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jilin.png" group-title="地方卫视",吉林卫视 HD
 http://183.207.248.107/ott.js.chinamobile.com/PLTV/3/224/3221228130/index.m3u8
