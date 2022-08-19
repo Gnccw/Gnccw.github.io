@@ -1,14 +1,12 @@
-* 入门
+* 学术
 
-  * [快速开始](zh-cn/quickstart.md)
-  * [多页文档](zh-cn/more-pages.md)
-  * [定制导航栏](zh-cn/custom-navbar.md)
-  * [封面](zh-cn/cover.md)
+  * [密码分析](密码分析/impossible-difference.md)
+  * [写作]()
+  * [其他]()
 
-
-* 配置
-  * [配置项](zh-cn/configuration.md)
-  * [主题](zh-cn/themes.md)
-  * [使用插件](zh-cn/plugins.md)
-  * [Markdown 配置](zh-cn/markdown.md)
-  * [代码高亮](zh-cn/language-highlight.md)
+* 基础知识
+ 
+* 编程
+  * [c++](编程/c++/c++.md)
+  * [git](编程/git/git.md)
+  * [python](编程/python/python.md)
