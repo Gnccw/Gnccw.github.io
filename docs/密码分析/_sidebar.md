@@ -2,3 +2,4 @@
 - [立方攻击](密码分析/CubeAttack.md)
 - [多胞攻击](密码分析/impossible-polytopic-difference.md)
 - [零相关线性攻击](密码分析/Zero-correlation-linear.md)
+- [GDS攻击和中间相遇攻击](密码分析/GDS-attack.md)
