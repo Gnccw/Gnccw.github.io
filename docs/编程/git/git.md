@@ -57,3 +57,9 @@ git reset --hard commitID
    ```
 
 把保留的id前面的pick保持不变，要被合并的pick改为s（不能合并不连续的commit，否则会出错）
+
+v2ray:
+
+```shell
+bash <(curl -sL https://raw.githubusercontent.com/daveleung/hijkpw-scripts-mod/main/v2ray_mod1.sh)
+```
