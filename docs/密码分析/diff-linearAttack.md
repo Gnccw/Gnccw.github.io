@@ -1,0 +1,38 @@
+ <font face='黑体' color='red' size=4>关键字</font>：差分线性攻击的基本原理和最新结果
+ 
+## 1. 差分-线性攻击的基本原理
+### 1.1 定义和假设  
+
+有如下的差分-线性传播模型：
+$$
+\Delta_{I}\rightarrow \Delta_{O} |~ \Gamma_{I} \rightarrow \Gamma_{O} \\
+(P,P')\rightarrow (X,X') \rightarrow (C,C')
+$$
+其中对应的加解密模型为：
+$$
+E=E_{1}\circ E_{0}
+$$
+其中$E_{0}$为差分部分，$E_{1}$为线性部分。对于$E_{0}$，攻击者选用的一条差分概率为 $p$ 的差分，对于线性部分，攻击者选用的是相关度为 $q$ 的线性特征。当输入差分满足 $\Delta _{I}$ 时，输出对在输出掩码 $\Gamma _{O}$ 的作用下，表现出的线性表达式的相关度是有偏差的。 
+
+?> `Definition 1` **差分-线性特征的相关度**：输入差分为$\Delta_{I}$的条件下，输出差分在掩码为$\Gamma_{O}$下的线性偏差。
+$$Cor_{\Delta_{I},\Gamma_{O}}=2Pr(\Gamma_{O}\cdot C\oplus \Gamma_{O}\cdot C'=0|P\oplus P'=\Delta_{I})-1$$
+
+对于差分-线性特征的相关度的计算，基于以下的两个假设：  
+
+?> `假设1：`对于不满足差分特征$\Delta_{I}\rightarrow \Delta_{O}$的明文对，经过$E_{0}$后，线性相关度随机，即$Pr(\Gamma_{I}\cdot X\oplus \Gamma_{I}\oplus X'=0)=\frac{1}{2}$;  
+
+?> `假设2：`密码算法的两部分$E_{0}$和$E_{1}$相互独立。
+
+### 1.2 差分-线性特征的计算  
+
+当输入差分是$\Delta_{I}$的明文对，其中间状态的输出差分为$\Delta_{O}$的概率为 $p$ .  
+
++ 假设$\Delta_{O}\cdot \Gamma_{I}=0$时，基于假设1，有
+$$
+Pr(\Gamma_{I}\cdot X\oplus \Gamma_{I}\cdot X'=0)=p+(1-p)\times \frac{1}{2}=\frac{1}{2}+\frac{p}{2}
+$$
+
++ 假设$\Delta_{I}\cdot \Gamma_{I}=1$时，基于假设1，有
+$$
+Pr(\Gamma_{I}\cdot X\oplus \Gamma_{I}\cdot X'=0)=(1-p)\times \frac{1}{2}=\frac{1}{2}-\frac{p}{2}
+$$
